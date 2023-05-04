@@ -1,0 +1,16 @@
+{
+    "disableAutoUpdate": false,
+    "author": "ChatGPT",
+    "options": {
+        "niceName": "start-tank-notification",
+        "guiName": "start-tank-notification"
+    },
+    "supportUrl": "-",
+    "servers": ["-"],
+    "name": "start-tank-notification",
+    "description": "notification",
+    "packets": {
+        "S_SPAWN_USER": 15,
+        "S_DUNGEON_EVENT_MESSAGE": 2
+    }
+}
