@@ -1,4 +1,4 @@
-module.exports = function OnslaughtSound(mod) {
+module.exports = function notification(mod) {
   mod.hook("S_ACTION_STAGE", 9, (event) => {
     if (event.skill.id === 70300) {
       mod.send("S_CUSTOM_STYLE_SYSTEM_MESSAGE", 1, {
